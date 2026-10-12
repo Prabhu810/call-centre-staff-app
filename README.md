@@ -1,65 +1,54 @@
 # CallDesk — Call Centre Staff App
 
-A responsive, original frontend demo for a call-centre staff workspace. Built with React and Vite using sample data; no backend or API keys are required.
+A responsive front-end demo for a call-centre staff workspace. Built with React and Vite using sample data. No backend or API keys are required.
 
 ## Features
 
-- Responsive staff workspace with sidebar navigation
-- Dashboard summary cards and illustrative call activity chart
-- Recent calls table with customer, call topic, direction, status, duration, and time
-- Search by customer name, call ID, phone number, or call topic
-- Filter by call status and incoming/outgoing call type
-- View call details and update a call's status
-- Add new call records through a validated form
-- Customer directory view, call history view, settings view, and toast feedback
-- Mobile-friendly navigation and layouts
+- Dashboard with call statistics and daily goals
+- Recent calls list
+- Search and filter call records
+- Add new call records
+- View call details and update statuses
+- Customers, call history, and settings navigation
+- Responsive design for desktop and mobile screens
 
-## Tech stack
+## Technology Stack
 
-- React 18
-- Vite 6
-- JavaScript (ES modules)
-- CSS
-- Lucide React icons
+- React
+- Vite
+- JavaScript
+- HTML and CSS
 
-## Run locally
+## Installation and Setup
 
-Requirements: Node.js 18+ and npm.
+Make sure Node.js and npm are installed.
 
-```bash
-npm install
-npm run dev
-```
+1. Clone this repository:
 
-Open the local URL printed by Vite (usually `http://localhost:5173`).
+   `git clone https://github.com/Prabhu810/call-centre-staff-app.git`
 
-Create a production build:
+2. Open the project folder:
 
-```bash
-npm run build
-npm run preview
-```
+   `cd call-centre-staff-app`
 
-## Project structure
+3. Install dependencies:
 
-```text
-call-centre-staff-app/
-├── public/
-├── src/
-│   ├── main.jsx
-│   └── styles.css
-├── index.html
-├── package.json
-└── README.md
-```
+   `npm install`
 
-## Sample data and limitations
+4. Start the development server:
 
-The app runs entirely in the browser. Call records use in-memory sample data, so newly added records and status changes reset when the page is refreshed. The chart and summary values are demo/illustrative values. No real customer information, telephony integration, authentication, or backend is connected.
+   `npm run dev`
 
-## AI tools used
+5. Open the local URL displayed in the terminal.
 
-- **ChatGPT (OpenAI):** used to help scaffold and write the original React UI, sample data, responsive CSS, interaction logic, and this README.
-- **No reference mock source code was copied.** The implementation was created as an original design based on the assignment description.
+## Sample Data
 
-Review the code, run it locally, and make any changes needed before submission.
+The app uses sample call and customer records for demonstration. Changes made during a session are not permanently stored.
+
+## AI Tools Used
+
+ChatGPT (OpenAI) assisted with project scaffolding, sample data, UI styling, interaction planning, and README documentation. The resulting code was reviewed and adapted for this assignment.
+
+## Project Purpose
+
+This project demonstrates a front-end interface for call-centre staff to view call activity and manage sample call records.
